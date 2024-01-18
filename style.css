@@ -1,0 +1,46 @@
+body{
+    background-image: url("bg-img.pdf");
+    background-position:center;
+    background-size: cover;
+    font-family: myFirstFont;
+    color: white;
+}
+img{
+   filter: opacity(0.5) !important;
+}
+.brand{
+    padding-bottom: 1rem;
+}
+.text-justify{
+text-align: justify !important;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Didot-Regular-Font/Didot\ Regular.ttf);
+  }
+
+
+  @media (max-width: 767px){
+    .info {
+        overflow: hidden;
+        text-align: justify;
+    }
+   
+    .brand{
+        padding-bottom: 0 !important;
+    }
+  }
+  @media (max-width: 575px){
+    .info {
+       padding: 0 1rem;
+    }
+  }
+  @media (max-width: 992px){
+    
+    .w-25{
+        width: 50% !important;
+    }
+  }
+
+ 
